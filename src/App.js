@@ -1,6 +1,7 @@
 import React from "react";
-import FunCounter from "./components/FunCounter";
-import ClassCounter from "./components/ClassCounter";
+// import FunCounter from "./components/FunCounter";
+// import ClassCounter from "./components/ClassCounter";
+import TodoList from "./components/TodoList";
 import "./App.css";
 
 function App() {
@@ -8,8 +9,9 @@ function App() {
     <>
       <div className="hero">
         <div className="counter-row">
-          <ClassCounter />
-          <FunCounter />
+          {/* <ClassCounter /> */}
+          {/* <FunCounter /> */}
+          <TodoList />
         </div>
       </div>
     </>
